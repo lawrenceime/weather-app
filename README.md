@@ -34,3 +34,41 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+# Weather App
+
+## Description
+
+A simple weather application built with Next.js, TypeScript, and Tailwind CSS. This app fetches and displays the current weather for a user-specified location, using the OpenWeatherMap API or mock data if the API call fails.
+
+## Installation Instructions
+
+Follow these steps to set up and run the project locally:
+
+1. **Unzip the file**
+
+
+2. **install dependencies**
+     npm install
+
+3.   **Setup Environmental Variables**
+
+    NEXT_PUBLIC_OPENWEATHER_API_KEY=your_openweathermap_api_key
+
+4.  **Run the Development Server**      
+     npm run dev or yarn dev
+
+5.   **Run tests** 
+    npx jest
+
+6.  **Additional Information**
+
+    Tech Stack: Next.js, TypeScript, Tailwind CSS, Axios, Jest, Testing Library
+    
+    API Usage: The application fetches weather data from the OpenWeatherMap API. If the API is not reachable, mock data is used.
+
+    Components:
+        WeatherCard: Displays weather information.
+        fetchWeatherData: Fetches weather data from the API or returns mock data if the API fails.
